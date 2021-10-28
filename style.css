@@ -1,0 +1,138 @@
+body{
+    background-image: url(./image.html.jpg);
+}
+.container{
+     display:flex;
+    justify-content: space-between;
+}
+.box{
+    border: 5px solid red ;
+    border-radius: 30px;
+    margin: 20px;
+    background-color: black;
+    font-style:italic ;
+    text-align: center;
+    color: white;
+    
+}
+#box1{
+    width: 20%;
+    height: 50%;
+    position:relative;
+    left: 50px;
+     
+}
+#box2{
+    margin-top: 20px;
+    width: 30%;
+    height: 50%;
+    
+    
+     
+}
+
+#box3{
+   
+    width: 30%;
+    height: 10%;
+    
+} 
+.circle{
+    border-radius: 50%;
+    border-style: solid;
+    height:300px;
+    width: 300px;
+    border-color:grey;
+    float: left;
+    display: inline-block;
+    position: relative;
+    left:5%;
+    top:200px;
+
+    bottom: 5px;
+    background-color: teal;
+    
+    
+}
+   
+.box4{
+    border: 5px dashed red;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+    left:20%;
+    top:50px;
+    bottom:30px ;
+    
+} 
+label{
+    color: red;
+}
+header{
+    color: red;
+    font-size: larger;
+}
+.circle-txt{
+    position: absolute;
+    bottom: 60px;
+    width:100%;
+    text-align: center;
+    font-style: italic;
+    
+    
+}
+hr{
+    color: white;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+    left:20%;
+    top:0.5px;
+    bottom:30px ;
+   
+    
+
+}
+.box5{
+    border: 5px solid red ;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-style:italic ;
+    text-align: center;
+    width: 30%;
+    height: 50%;
+}
+.food{
+    border: 1px solid green;
+    border-radius: 30px;
+    background-color:cyan;
+    color: blue;
+    display: inline-block;
+    /* text-align: center; */
+    margin: 50px;
+    padding: 20px;
+    list-style-position: outside;
+    width: 20%;
+    height: 30%;
+}
+li{
+    text-align: left;
+    padding-left: 50px;
+}
+
+h2{
+    font-size:xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+    
